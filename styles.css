@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 100;
+  padding: 54;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'outfit', sans-serif;
+  font-weight: lighter;
+ 
+}
+body{
+    background-color: #e3ebf1;
+}
+
+header{
+  div.gallery {
+    border: 1px solid #e3ebf1;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #73c5e6;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+    
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+   
+    
+    
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.menu{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000px;
+}
+
+
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+  
+}
+
+.menu .navbar ul li a{
+  font-size: 18px;
+  padding: 10px 35px;
+  color: rgb(0, 0, 0);
+  border-radius: 25px;
+  display: block;
+}
+
+.navbar{
+  width: 45;
+
+
+}
+
+.menu .navbar ul li a:hover{
+    background-color: #EDDB00;
+}
+
+#menu{
+  display: none;
+}
+
+.menu-icono{
+  width: 60px;
+}
+
+.hamburger-icono{
+  width: 45px;
+  align-content: right;
+  padding-left: 12px;
+  margin-top: 4px;
+}
+
+.menu label{
+  cursor: pointer;
+  display: none;
+}
+
+.header-content{
+  display: flex;
+  padding-left: 90px;
+}
+
+.header-content img{
+  width: 130px;
+}
+
+
+.content{
+  color: rgb(61, 132, 231);
+  margin-top: 150px;
+  text-align: justify;
+  margin-bottom: 88px;
+}
+
+.titulo-main{
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+ 
+}
+
+.titulo2{
+  font-weight: lighter;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 47px;
+ 
+
+}
+
+.info{
+  color: rgb(132, 132, 132);
+  font-weight: lighter;
+  width: flex;
+  height: 130px;
+  background-color: white;
+  font-size: 15px;
+  padding: 89px 97px;
+  text-align: center;
+}
